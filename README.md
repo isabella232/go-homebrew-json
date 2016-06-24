@@ -18,8 +18,6 @@ The output will be a big blob of json
 packages, err := homebrew.Unmarshal(jsonData)
 ```
 
----
-
 The output from homebrew can be tweaked a bit. You can request a specific formula, installed formula etc. Take a look at [the homebrew documentation][querying-homebrew] for details
 
 ## Example
@@ -50,6 +48,15 @@ func main() {
 	pretty.Print(data)
 }
 ```
+
+## Contact
+
+Join us in our slack room: [![Slack Status](http://werckerpublicslack.herokuapp.com/badge.svg)](http://slack.wercker.com)
+
+## License
+
+`wercker` is under the Apache 2.0 license. See the [LICENSE](LICENSE) file for details.
+
 
 
 [querying-homebrew]: https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Querying-Brew.md
