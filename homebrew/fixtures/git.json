@@ -1,0 +1,107 @@
+[
+  {
+    "name": "git",
+    "full_name": "git",
+    "desc": "Distributed revision control system",
+    "homepage": "https://git-scm.com",
+    "oldname": null,
+    "aliases": [],
+    "versions": {
+      "stable": "2.9.0",
+      "bottle": true,
+      "devel": null,
+      "head": "HEAD"
+    },
+    "revision": 0,
+    "installed": [
+      {
+        "version": "2.8.1",
+        "used_options": [],
+        "built_as_bottle": true,
+        "poured_from_bottle": true
+      },
+      {
+        "version": "2.9.0",
+        "used_options": [],
+        "built_as_bottle": true,
+        "poured_from_bottle": true
+      }
+    ],
+    "linked_keg": "2.9.0",
+    "pinned": false,
+    "outdated": false,
+    "keg_only": null,
+    "dependencies": [
+      "xz",
+      "pcre",
+      "gettext"
+    ],
+    "recommended_dependencies": [],
+    "optional_dependencies": [
+      "pcre",
+      "gettext"
+    ],
+    "build_dependencies": [
+      "xz"
+    ],
+    "conflicts_with": [],
+    "caveats": null,
+    "requirements": [],
+    "options": [
+      {
+        "option": "--with-blk-sha1",
+        "description": "Compile with the block-optimized SHA1 implementation"
+      },
+      {
+        "option": "--without-completions",
+        "description": "Disable bash/zsh completions from 'contrib' directory"
+      },
+      {
+        "option": "--with-brewed-openssl",
+        "description": "Build with Homebrew OpenSSL instead of the system version"
+      },
+      {
+        "option": "--with-brewed-curl",
+        "description": "Use Homebrew's version of cURL library"
+      },
+      {
+        "option": "--with-brewed-svn",
+        "description": "Use Homebrew's version of SVN"
+      },
+      {
+        "option": "--with-persistent-https",
+        "description": "Build git-remote-persistent-https from 'contrib' directory"
+      },
+      {
+        "option": "--with-pcre",
+        "description": "Build with pcre support"
+      },
+      {
+        "option": "--with-gettext",
+        "description": "Build with gettext support"
+      }
+    ],
+    "bottle": {
+      "stable": {
+        "revision": 0,
+        "cellar": "/usr/local/Cellar",
+        "prefix": "/usr/local",
+        "root_url": "https://homebrew.bintray.com/bottles",
+        "files": {
+          "el_capitan": {
+            "url": "https://homebrew.bintray.com/bottles/git-2.9.0.el_capitan.bottle.tar.gz",
+            "sha256": "6b230fa505e98f2947134271fee52d5fcd16eaff49d9dc0fd9ef933f568b92db"
+          },
+          "yosemite": {
+            "url": "https://homebrew.bintray.com/bottles/git-2.9.0.yosemite.bottle.tar.gz",
+            "sha256": "076146d0cefd7643c02446a279da627cf290702472e7cd9d3756d6a38cf3c13c"
+          },
+          "mavericks": {
+            "url": "https://homebrew.bintray.com/bottles/git-2.9.0.mavericks.bottle.tar.gz",
+            "sha256": "396bb11465e7d13141bfa9c67f41a81628259060761df820193763b9e973fc61"
+          }
+        }
+      }
+    }
+  }
+]

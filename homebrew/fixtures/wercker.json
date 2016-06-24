@@ -1,0 +1,38 @@
+[
+  {
+    "name": "wercker-cli",
+    "full_name": "wercker/wercker/wercker-cli",
+    "desc": "wercker command line interface for building and running containers",
+    "homepage": "http://wercker.com",
+    "oldname": null,
+    "aliases": [],
+    "versions": {
+      "stable": "1.0.405",
+      "bottle": false,
+      "devel": null,
+      "head": null
+    },
+    "revision": 0,
+    "installed": [
+      {
+        "version": "1.0.405",
+        "used_options": [],
+        "built_as_bottle": false,
+        "poured_from_bottle": false
+      }
+    ],
+    "linked_keg": "1.0.405",
+    "pinned": false,
+    "outdated": false,
+    "keg_only": null,
+    "dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "build_dependencies": [],
+    "conflicts_with": [],
+    "caveats": null,
+    "requirements": [],
+    "options": [],
+    "bottle": {}
+  }
+]

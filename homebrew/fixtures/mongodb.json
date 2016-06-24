@@ -1,0 +1,99 @@
+[
+  {
+    "name": "mongodb",
+    "full_name": "mongodb",
+    "desc": "High-performance, schema-free, document-oriented database",
+    "homepage": "https://www.mongodb.org/",
+    "oldname": null,
+    "aliases": [
+      "mongo"
+    ],
+    "versions": {
+      "stable": "3.2.7",
+      "bottle": true,
+      "devel": null,
+      "head": null
+    },
+    "revision": 0,
+    "installed": [
+      {
+        "version": "3.2.4",
+        "used_options": [],
+        "built_as_bottle": true,
+        "poured_from_bottle": true
+      }
+    ],
+    "linked_keg": "3.2.4",
+    "pinned": false,
+    "outdated": true,
+    "keg_only": null,
+    "dependencies": [
+      "boost",
+      "go",
+      "scons",
+      "openssl"
+    ],
+    "recommended_dependencies": [
+      "openssl"
+    ],
+    "optional_dependencies": [
+      "boost"
+    ],
+    "build_dependencies": [
+      "go",
+      "scons"
+    ],
+    "conflicts_with": [],
+    "caveats": null,
+    "requirements": [
+      {
+        "name": "minimummacos",
+        "default_formula": null,
+        "cask": null,
+        "download": null
+      },
+      {
+        "name": "git",
+        "default_formula": "git",
+        "cask": null,
+        "download": null
+      }
+    ],
+    "options": [
+      {
+        "option": "--with-boost",
+        "description": "Compile using installed boost, not the version shipped with mongodb"
+      },
+      {
+        "option": "--with-sasl",
+        "description": "Compile with SASL support"
+      },
+      {
+        "option": "--without-openssl",
+        "description": "Build without openssl support"
+      }
+    ],
+    "bottle": {
+      "stable": {
+        "revision": 0,
+        "cellar": "/usr/local/Cellar",
+        "prefix": "/usr/local",
+        "root_url": "https://homebrew.bintray.com/bottles",
+        "files": {
+          "el_capitan": {
+            "url": "https://homebrew.bintray.com/bottles/mongodb-3.2.7.el_capitan.bottle.tar.gz",
+            "sha256": "40f0556c93e212a70c6a295b3f6f4a6ac7d243abc0e44dacb9c633dc7725106e"
+          },
+          "yosemite": {
+            "url": "https://homebrew.bintray.com/bottles/mongodb-3.2.7.yosemite.bottle.tar.gz",
+            "sha256": "30c8ac35adc9f0ef0bde8af6c7d58cf02bc14c779c09626f89bafc451c6d5329"
+          },
+          "mavericks": {
+            "url": "https://homebrew.bintray.com/bottles/mongodb-3.2.7.mavericks.bottle.tar.gz",
+            "sha256": "d1fd8b7daf61e0448429fabe10ce554f98151cba30441744aeb1fdbbb0f1c76f"
+          }
+        }
+      }
+    }
+  }
+]
