@@ -1,0 +1,9 @@
+box: golang:1.6
+build:
+  steps:
+    - script:
+        name: go vet
+        code: go vet ./...
+    - script:
+        name: go test
+        code: go test ./...
